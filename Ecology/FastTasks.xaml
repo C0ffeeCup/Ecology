@@ -1,0 +1,13 @@
+﻿<Window x:Class="Ecology.FastTasks"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ecology"
+        mc:Ignorable="d"
+        Title="Tasks" Height="450" Width="469" ResizeMode="NoResize">
+    <Grid Background="#FFA0E88E">
+        <Label Content="Actual tasks" HorizontalAlignment="Left" Margin="39,40,0,0" VerticalAlignment="Top" FontFamily="Cooper Black" FontSize="20" Foreground="White"/>
+        <ListBox x:Name="task_list" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="39,78,207,217" Background="#FFBDDD8F" BorderBrush="#FFB4FF78" SelectionChanged="task_list_SelectionChanged"/>
+    </Grid>
+</Window>

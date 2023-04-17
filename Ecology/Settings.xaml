@@ -1,0 +1,19 @@
+﻿<Window x:Class="Ecology.Settings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ecology"
+        mc:Ignorable="d"
+        Title="Settings" Height="450" Width="616">
+    <Grid Background="#FFC6E395">
+        <Label Content="Settings" HorizontalAlignment="Left" Margin="75,27,0,0" VerticalAlignment="Top" FontFamily="Cooper Black" Foreground="White" FontSize="36"/>
+        <Button Content="GenerateToken" HorizontalAlignment="Left" Margin="83,83,0,0" VerticalAlignment="Top" Height="25" Width="145" Background="#FFE3F3D3" FontFamily="Cooper Black" Foreground="#FF191919" Click="Button_Click_1"/>
+        <Button Content="Choose Theme" HorizontalAlignment="Left" Margin="83,113,0,0" VerticalAlignment="Top" Height="25" Width="145" Background="#FFE3F3D3" FontFamily="Cooper Black" Foreground="#FF191919" Click="Button_Click"/>
+        <Button Content="Support" HorizontalAlignment="Left" Margin="83,143,0,0" VerticalAlignment="Top" Height="25" Width="145" Background="#FFE3F3D3" FontFamily="Cooper Black" Foreground="#FF191919" Click="Button_Click_2"/>
+        <Image x:Name="linq" Source="Img\Linq.png" Margin="67,188,359,91"/>
+        <TextBlock x:Name="token_text" HorizontalAlignment="Left" Margin="83,389,0,0" TextWrapping="Wrap" Text="YourToken:" VerticalAlignment="Top" Width="253" FontFamily="Cooper Black" FontSize="18" Foreground="White"/>
+        <TextBlock x:Name="linq_text" HorizontalAlignment="Left" Margin="83,348,0,0" TextWrapping="Wrap" Text="https://t.me/+QoaY7YAMzas1NzUy" VerticalAlignment="Top" Width="351" FontFamily="Cooper Black" FontSize="18" Foreground="White"/>
+
+    </Grid>
+</Window>

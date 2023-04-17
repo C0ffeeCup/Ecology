@@ -1,0 +1,22 @@
+﻿<Window x:Class="Ecology.Welcome"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ecology"
+        mc:Ignorable="d"
+        Title="Welcome" Height="450" Width="439">
+    <ScrollViewer VerticalScrollBarVisibility="Hidden" HorizontalScrollBarVisibility="Hidden">
+        <Grid Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}">
+            <TextBlock HorizontalAlignment="Center" Margin="0,68,0,0" TextWrapping="Wrap" Text="Welcome" VerticalAlignment="Top" FontSize="36" TextAlignment="Center" FontFamily="Cooper Black" Foreground="White"/>
+            <TextBlock HorizontalAlignment="Center" Margin="0,109,0,0" TextWrapping="Wrap" Text="we are ECO" VerticalAlignment="Top" FontFamily="Cooper Black" Foreground="White" FontSize="18"/>
+            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Покажем места для утилизации отходов" VerticalAlignment="Top" Width="198" Foreground="White" FontFamily="Cooper Black" FontSize="16" TextAlignment="Center" Margin="0,209,0,0"/>
+            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Дадим возможность спасти природу" VerticalAlignment="Top" Width="198" Foreground="White" FontFamily="Cooper Black" FontSize="16" TextAlignment="Center" Margin="0,251,0,0"/>
+            <Button Content="Регистрация" HorizontalAlignment="Center" Margin="0,293,0,0" VerticalAlignment="Top" Width="164" Click="Button_Click_1" Background="#FFE8FFC0" FontFamily="Cooper Black" Foreground="Black"/>
+            <Button Content="Вход" HorizontalAlignment="Center" Margin="0,318,0,0" VerticalAlignment="Top" Width="164" Click="Button_Click" Background="#FFDDF9AE" FontFamily="Cooper Black"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Доступно расскажем об экологии
+                       " VerticalAlignment="Top" Width="181" Foreground="White" FontFamily="Cooper Black" FontSize="16" Margin="137,167,0,0" RenderTransformOrigin="0.508,0.462"/>
+
+        </Grid>
+    </ScrollViewer>
+</Window>

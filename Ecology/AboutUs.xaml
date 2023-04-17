@@ -1,0 +1,19 @@
+﻿<Window x:Class="Ecology.AboutUs"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ecology"
+        mc:Ignorable="d"
+        Title="AboutUs" Height="330" Width="601">
+    <Grid Background="#FFF3FFB4" Margin="0,0,0,-16">
+        <Label Content="AboutUs" HorizontalAlignment="Center" Margin="0,29,0,0" VerticalAlignment="Top" FontFamily="Cooper Black" FontSize="20" Foreground="Black" Width="132"/>
+        <TextBlock HorizontalAlignment="Left" Margin="185,0,0,33" TextWrapping="Wrap" Text="Данное приложение находится в активной разработке, возможно к конечному этапу оно сильно измениться. Данное приложение предназначено для упрощения нахождения информации касаемо защиты и охраны природы, а так же для поднятия народного интереса к этой теме" FontFamily="Cooper Black" FontSize="16" Width="406" Height="128" VerticalAlignment="Bottom"/>
+        <Label Content="О приложении" Margin="185,0,0,166" FontFamily="Cooper Black" FontSize="16" HorizontalAlignment="Left" Width="132" Height="28" VerticalAlignment="Bottom"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Margin="170,0,0,24" Width="404" Height="137" VerticalAlignment="Bottom"/>
+        <Label Content="Version: Alpha1.0" HorizontalAlignment="Left" Margin="10,0,0,33" FontFamily="Arial Black" Height="24" VerticalAlignment="Bottom"/>
+        <Label Content="Made By: КУБышечки" HorizontalAlignment="Left" Margin="10,0,0,62" FontFamily="Arial Black" Height="24" VerticalAlignment="Bottom"/>
+        <Label Content="ECO" HorizontalAlignment="Left" Margin="263,67,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="16" Foreground="Red"/>
+
+    </Grid>
+</Window>

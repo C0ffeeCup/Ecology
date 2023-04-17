@@ -1,0 +1,17 @@
+﻿<Window x:Class="Ecology.Battery"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ecology"
+        mc:Ignorable="d"
+        Title="Battery" Height="557" Width="446">
+    <ScrollViewer VerticalScrollBarVisibility="Hidden" HorizontalScrollBarVisibility="Hidden">
+        <Grid Background="#FFFEFFBE">
+            <Image Source="Img\batterys.jpg" Width="200" Height="200" Margin="123,81,123,798" />
+            <Label Content="Батарейки" HorizontalAlignment="Center" Margin="0,31,0,0" VerticalAlignment="Top" FontFamily="Cooper Black" Foreground="Black" FontSize="20"/>
+            <TextBlock HorizontalAlignment="Center" Margin="0,286,0,0" TextWrapping="Wrap" Text="Каждый из нас наверняка пользовался в своей жизни батарейками. Пульты, часы, игрушки, телефоны, масса других вещей, в доме всегда есть что-то, что работает на батарейках. А они имеют свойство вырабатывать свой ресурс. Выбросить в мусорное ведро вместе с остальным домашним мусором? Это неправильно! На корпусе батарейки практически всегда присутствует знак в виде перечеркнутого мусорного контейнера, сообщающий о том, что ее нельзя выбрасывать вместе с остальными бытовыми отходами. Если люди выбрасывают батарейки в мусорное ведро, то они попадают на городские свалки, откуда все эти супер-вредные вещества попадают в грунтовые воды. Одна батарейка загрязняет вредными компонентами 400 л воды и 20 квадратных метров почвы. В лесной зоне это территория обитания 2-х деревьев, 2-х кротов, одного ежика и нескольких тысяч дождевых червей. В составе использованных батареек могут содержатся: свинец (накапливается в организме, поражая почки, нервную систему, костные ткани) кадмий (вредит легким и почкам) ртуть (поражает мозг и нервную систему) никель и цинк (могут вызывать дерматит) щелочи (прожигают слизистые оболочки и кожу) и другие, опасные для окружающей среды, вещества . Мы верим в то, что один человек может изменить многое." VerticalAlignment="Top" FontFamily="Cooper Black" FontSize="14" Width="262" TextAlignment="Center" Height="689"/>
+            <Button Content="Сылки на места сбора батареек" HorizontalAlignment="Center" Margin="0,980,0,0" VerticalAlignment="Top" Width="262" Height="26" FontFamily="Cooper Black" Foreground="Black"/>
+        </Grid>
+    </ScrollViewer>
+</Window>

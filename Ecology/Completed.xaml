@@ -1,0 +1,14 @@
+﻿<Window x:Class="Ecology.Completed"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ecology"
+        mc:Ignorable="d"
+        Title="Completed" Height="450" Width="467" ResizeMode="NoResize">
+    <Grid Background="#FFA9CE60">
+        <Label Content="Completed Tasks" HorizontalAlignment="Left" Margin="45,30,0,0" VerticalAlignment="Top" FontFamily="Cooper Black" FontSize="22"/>
+        <ListBox x:Name="completed_list" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="45,70,221,101" Background="#FFC9D670"/>
+
+    </Grid>
+</Window>

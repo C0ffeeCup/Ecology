@@ -1,0 +1,24 @@
+﻿<Window x:Class="Ecology.Bottle"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ecology"
+        mc:Ignorable="d"
+        Title="Bottle" Height="585" Width="415" Background="#FFA2C98A">
+    <ScrollViewer VerticalScrollBarVisibility="Hidden" HorizontalScrollBarVisibility="Hidden">
+        <Grid Width="415" Background="#FFF0FFAF">
+            <Label Content=" Бутылки" HorizontalAlignment="Center" Margin="0,33,0,0" VerticalAlignment="Top" FontFamily="Cooper Black" Foreground="Black" FontSize="22"/>
+            <Image Source="Img\plbottle.jpg" Margin="114,125,113,0" Height="332" VerticalAlignment="Top"/>
+            <Label Content="Пластик" HorizontalAlignment="Left" Margin="114,92,0,0" VerticalAlignment="Top" FontFamily="Cooper Black" Foreground="Black" FontSize="16"/>
+            <TextBlock HorizontalAlignment="Center" Margin="0,259,0,0" TextWrapping="Wrap" Text="Пластик – самый простой, удобный, но самый неэкологичный вид упаковки. По большей части он применяется одноразово, а затем выкидывается и чаще всего не туда, куда нужно. Путь его «полезной» жизни краткосрочен, чего нельзя сказать о его «второй жизни» – разложении. Разлагается пластик примерно 450-500 лет." VerticalAlignment="Top" Width="189" FontSize="14" FontFamily="Cooper Black" TextAlignment="Center"/>
+            <TextBlock HorizontalAlignment="Center" Margin="0,521,0,0" TextWrapping="Wrap" Text="В течение этого времени пластик выделяет много токсичных элементов, которые отравляют почву, воду и воздух, попадают в пищу животных, птиц и рыб, убивая их, наносят непоправимый ущерб природе." VerticalAlignment="Top" Width="189" FontSize="14" FontFamily="Cooper Black" TextAlignment="Center"/>
+            <TextBlock HorizontalAlignment="Center" Margin="0,687,0,0" TextWrapping="Wrap" Text="Пластик может не только отравлять, но и калечить. Очень много живых существ запутывается в пластиковых вещах, ранится о них, занося инфекцию в организм, и погибает. На такое смотреть очень тяжело. А ведь виноваты во всём мы – люди!" VerticalAlignment="Top" Width="189" FontSize="14" FontFamily="Cooper Black" TextAlignment="Center"/>
+            <Label Content="Стекло" HorizontalAlignment="Left" Margin="114,869,0,0" VerticalAlignment="Top" FontFamily="Cooper Black" Foreground="Black" FontSize="16"/>
+            <Image Source="/Img/stbottle.jpg" Margin="114,902,113,0" Height="332" VerticalAlignment="Top"/>
+            <TextBlock HorizontalAlignment="Center" Margin="0,1032,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="189" FontSize="14" FontFamily="Cooper Black" TextAlignment="Center" Text="Исследователи из Саутгемптонского университета в Великобритании составили рейтинг емкостей, которые используются для безалкогольных напитков, по уровню их влияния на природу. Об этом сообщает The Conversation. По мнению специалистов, стеклянная упаковка на 95% сильнее способствует глобальному потеплению, чем алюминиевая. Стеклянные бутылки заняли в списке вредных емкостей первое место, так как для их производства нужно много ресурсов и энергии. Для плавления стекла требуется высокая температура, при этом часто используется ископаемое топливо, а в процессе выделяется углекислый газ."/>
+            <Button Content="Показать места для утилизации" HorizontalAlignment="Center" Margin="0,1556,0,0" VerticalAlignment="Top" Width="248" FontSize="14" FontFamily="Cooper Black" Background="#FFACE863" Click="Button_Click"/>
+
+        </Grid>
+    </ScrollViewer>
+</Window>
